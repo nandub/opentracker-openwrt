@@ -25,6 +25,10 @@ define Package/libowfat
  URL:=http://www.fefe.de/libowfat/
 endef
 
+define Package/libowfat/description                                                
+  GPL reimplemention of libdjb
+endef
+
 define Package/libowfat/install
 	$(INSTALL_DIR) $(1)/usr/lib
 	$(INSTALL_BIN) $(PKG_BUILD_DIR)/*.o $(1)/usr/lib/
