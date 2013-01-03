@@ -14,7 +14,7 @@ Then configure for your system:
 
 Select your system type and the options you want and choose:
 
-    TODO
+    Application ---> [*] opentracker
 
 Then save and close the configuration menu, then allow OpenWRT to resolve dependencies:
 
