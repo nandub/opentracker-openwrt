@@ -1,0 +1,16 @@
+TART=10
+STOP=15
+
+OPENTRACKER_BIN=/usr/bin/opentracker
+
+
+start() {
+
+	echo "Starting opentracker"
+	$OPENTRACKER_BIN &		
+}
+stop() {
+	echo "Shutting down opentracker"
+	killall opentracker 
+}	
+

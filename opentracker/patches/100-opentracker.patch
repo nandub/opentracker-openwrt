@@ -1,0 +1,22 @@
+--- opentracker-20120608/Makefile	2010-03-15 23:36:08.000000000 +0100
++++ opentracker-20120608/Makefile	2010-03-15 23:37:10.000000000 +0100
+@@ -14,8 +14,8 @@
+ 
+ # Debug flavour
+ PREFIX?=..
+-LIBOWFAT_HEADERS=$(PREFIX)/libowfat
+-LIBOWFAT_LIBRARY=$(PREFIX)/libowfat
++LIBOWFAT_HEADERS=$(PREFIX)/libowfat-0.28
++LIBOWFAT_LIBRARY=$(PREFIX)/libowfat-0.28
+ 
+ BINDIR?=$(PREFIX)/bin
+ 
+@@ -64,7 +64,7 @@
+ 
+ $(BINARY): $(OBJECTS) $(HEADERS)
+ 	$(CC) -o $@ $(OBJECTS) $(LDFLAGS)
+-	strip $@
++	$(STRIP) $@
+ $(BINARY).debug: $(OBJECTS_debug) $(HEADERS)
+ 	$(CC) -o $@ $(OBJECTS_debug) $(LDFLAGS)
+ proxy: $(OBJECTS_proxy) $(HEADERS)
