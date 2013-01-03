@@ -8,11 +8,11 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=opentracker
-PKG_VERSION:=v0.1.0
+PKG_VERSION:=0.1.0
 PKG_RELEASE:=1
 
 PKG_SOURCE_URL:=https://github.com/nandub/opentracker/archive
-PKG_SOURCE:=$(PKG_VERSION).tar.gz
+PKG_SOURCE:=v$(PKG_VERSION).tar.gz
 PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)-$(PKG_VERSION)
 PKG_MD5SUM:=4ef9927ba20b9c000d8dfeee70eea7b7
 

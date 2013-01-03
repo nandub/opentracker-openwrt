@@ -26,7 +26,7 @@ define Package/libowfat
 endef
 
 define Package/libowfat/description                                                
-  GPL reimplemention of libdjb
+ GPL reimplemention of libdjb
 endef
 
 define Package/libowfat/install
