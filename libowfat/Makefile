@@ -38,7 +38,7 @@ endef
 define Package/libowfat/InstallDev
 	$(INSTALL_DIR) $(1)/usr/include
 	$(INSTALL_DATA) $(PKG_BUILD_DIR)/*.h $(1)/usr/include/
-	$(INSTALL_BIN) $PKG_BUILD_DIR)/*.o $(1)/usr/lib/
+	$(INSTALL_BIN) $(PKG_BUILD_DIR)/*.o $(1)/usr/lib/
 endef
 
 $(eval $(call BuildPackage,libowfat))
