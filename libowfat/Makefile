@@ -21,7 +21,7 @@ include $(INCLUDE_DIR)/package.mk
 define Package/libowfat
  SECTION:=libs
  CATEGORY:=Libraries
- TITLE:=libowfat
+ TITLE:=GPL reimplemention of libdjb
  URL:=http://www.fefe.de/libowfat/
 endef
 
