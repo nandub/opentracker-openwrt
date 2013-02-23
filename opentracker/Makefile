@@ -21,7 +21,7 @@ include $(INCLUDE_DIR)/package.mk
 define Package/opentracker
  SECTION:=app
  CATEGORY:=Application
- TITLE:=opentracker
+ TITLE:=open and free bittorrent tracker project
  URL:=http://erdgeist.org/arts/software/opentracker/
  DEPENDS:=+libowfat +zlib +libpthread
 endef
