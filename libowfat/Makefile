@@ -8,13 +8,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=libowfat
-PKG_VERSION:=0.29
+PKG_VERSION:=0.30
 PKG_RELEASE:=1
 
-PKG_SOURCE_URL:=http://dl.fefe.de
-PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.bz2
+PKG_SOURCE_URL:=https://www.fefe.de/libowfat
+PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.xz
 PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)-$(PKG_VERSION)
-PKG_MD5SUM:=1187c6acf11429e7adb9ebe180f644bb
+PKG_MD5SUM:=f0119532ea834ce9e80afe49d7d85512
 
 include $(INCLUDE_DIR)/package.mk
 
@@ -22,7 +22,7 @@ define Package/libowfat
  SECTION:=libs
  CATEGORY:=Libraries
  TITLE:=GPL reimplemention of libdjb
- URL:=http://www.fefe.de/libowfat/
+ URL:=https://www.fefe.de/libowfat/
 endef
 
 define Package/libowfat/description                                                
