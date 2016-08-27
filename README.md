@@ -1,3 +1,5 @@
+## OBSOLETE: It looks like opentracker was added to OpenWRT, so this package is not needed anymore, even if you try this it still won't work as the menu items has changed.
+
 To install opentracker on OpenWRT:
 
     # cd ~
